@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="title">
+        <span>CGV影城</span>
+    </div>
+    <div class="movies">
+        <label for="movie">请您选择电影:</label>
+        <select name="movie" id="movie">
+            <option value="48">名侦探柯南 (48RMB)</option>
+            <option value="40">我的姐姐 (40RMB)</option>
+            <option value="60">哥斯拉大战金刚 (60RMB)</option>
+            <option value="32">第十一回 (32RMB)</option>
+        </select>
+    </div>
+    <ul class="seat_options">
+        <li>
+            <div class="type lightgreen"></div>
+            <small>普通座</small>
+        </li>
+        <li>
+            <div class="type lightorange"></div>
+            <small>优选座</small>
+        </li>
+        <li>
+            <div class="type linghtpurple"></div>
+            <small>特选座</small>
+        </li>
+    </ul>
+    <div class="section">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightorange occpuied"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat linghtpurple"></div>
+            <div class="seat linghtpurple occpuied"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen occpuied"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightorange occpuied"></div>
+            <div class="seat lightorange"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+        <div class="row">
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+            <div class="seat lightgreen"></div>
+        </div>
+    </div>
+    <ul class="seat_options">
+        <li>
+            <div class="type normal"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="type normal occpuied"></div>
+            <small>已占用</small>
+        </li>
+        <li>
+            <div class="type normal selected"></div>
+            <small>已选择</small>
+        </li>
+
+    </ul>
+    <div class="final">
+        <p>座位个数:<span id="count">0</span></p>
+        <p>一共消费:<span id="total">0</span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
