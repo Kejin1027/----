@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./money.png" alt="" height="150px">
+    </div>
+    <h2>Exchange Rate Calculator</h2>
+    <p>Choose the currency and the amounts to get the exchange rate</p>
+    <div class="groupOne">
+        <select name="origin" id="currency_one">
+            <option value="USD" selected>USD</option>
+            <option value="AUD">AUD</option>
+            <option value="CNY">CNY</option>
+        </select>
+        <input type="number" id="amount_one" value="1">
+    </div>
+    <div class="swap">
+        <button id="swap">Swap</button>
+        <div class="rate" id="rate"></div>
+    </div>
+    <div class="groupOne">
+        <select name="origin" id="currency_two">
+            <option value="USD">USD</option>
+            <option value="AUD">AUD</option>
+            <option value="CNY" selected>CNY</option>
+        </select>
+        <input type="number" id="amount_two">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
